@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="9" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-06T16:47:30Z" name="Suite1" finished-at="2020-08-06T16:47:30Z" duration-ms="164">
+    <groups>
+    </groups>
+    <test started-at="2020-08-06T16:47:30Z" name="Landing Page" finished-at="2020-08-06T16:47:30Z" duration-ms="52">
+      <class name="org.example.demo.Login">
+        <test-method is-config="true" signature="cleanData()[pri:0, instance:org.example.demo.Login@323b36e0]" started-at="2020-08-06T16:47:30Z" name="cleanData" finished-at="2020-08-06T16:47:30Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanData -->
+        <test-method is-config="true" signature="executingBeforeAnyMethodInThisClass()[pri:0, instance:org.example.demo.Login@323b36e0]" started-at="2020-08-06T16:47:30Z" name="executingBeforeAnyMethodInThisClass" finished-at="2020-08-06T16:47:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executingBeforeAnyMethodInThisClass -->
+        <test-method is-config="true" signature="executeBeforeEveryTestMethod()[pri:0, instance:org.example.demo.Login@323b36e0]" started-at="2020-08-06T16:47:30Z" name="executeBeforeEveryTestMethod" finished-at="2020-08-06T16:47:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeEveryTestMethod -->
+        <test-method signature="inputLogin(java.lang.String, java.lang.String)[pri:0, instance:org.example.demo.Login@323b36e0]" started-at="2020-08-06T16:47:30Z" name="inputLogin" data-provider="getData" finished-at="2020-08-06T16:47:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputLogin -->
+        <test-method is-config="true" signature="executeAfterEveryTestMethod()[pri:0, instance:org.example.demo.Login@323b36e0]" started-at="2020-08-06T16:47:30Z" name="executeAfterEveryTestMethod" finished-at="2020-08-06T16:47:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterEveryTestMethod -->
+        <test-method signature="inputLogin(java.lang.String, java.lang.String)[pri:0, instance:org.example.demo.Login@323b36e0]" started-at="2020-08-06T16:47:30Z" name="inputLogin" data-provider="getData" finished-at="2020-08-06T16:47:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputLogin -->
+        <test-method is-config="true" signature="executeBeforeEveryTestMethod()[pri:0, instance:org.example.demo.Login@323b36e0]" started-at="2020-08-06T16:47:30Z" name="executeBeforeEveryTestMethod" finished-at="2020-08-06T16:47:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeEveryTestMethod -->
+        <test-method is-config="true" signature="executeAfterEveryTestMethod()[pri:0, instance:org.example.demo.Login@323b36e0]" started-at="2020-08-06T16:47:30Z" name="executeAfterEveryTestMethod" finished-at="2020-08-06T16:47:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterEveryTestMethod -->
+        <test-method signature="inputLogin(java.lang.String, java.lang.String)[pri:0, instance:org.example.demo.Login@323b36e0]" started-at="2020-08-06T16:47:30Z" name="inputLogin" data-provider="getData" finished-at="2020-08-06T16:47:30Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputLogin -->
+        <test-method is-config="true" signature="executeBeforeEveryTestMethod()[pri:0, instance:org.example.demo.Login@323b36e0]" started-at="2020-08-06T16:47:30Z" name="executeBeforeEveryTestMethod" finished-at="2020-08-06T16:47:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeEveryTestMethod -->
+        <test-method is-config="true" signature="executeAfterEveryTestMethod()[pri:0, instance:org.example.demo.Login@323b36e0]" started-at="2020-08-06T16:47:30Z" name="executeAfterEveryTestMethod" finished-at="2020-08-06T16:47:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterEveryTestMethod -->
+        <test-method is-config="true" signature="executeBeforeEveryTestMethod()[pri:0, instance:org.example.demo.Login@323b36e0]" started-at="2020-08-06T16:47:30Z" name="executeBeforeEveryTestMethod" finished-at="2020-08-06T16:47:30Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeEveryTestMethod -->
+        <test-method signature="inputPassword(java.lang.String)[pri:0, instance:org.example.demo.Login@323b36e0]" started-at="2020-08-06T16:47:30Z" name="inputPassword" finished-at="2020-08-06T16:47:30Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mainpage.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputPassword -->
+        <test-method is-config="true" signature="executeAfterEveryTestMethod()[pri:0, instance:org.example.demo.Login@323b36e0]" started-at="2020-08-06T16:47:30Z" name="executeAfterEveryTestMethod" finished-at="2020-08-06T16:47:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterEveryTestMethod -->
+        <test-method is-config="true" signature="lastExecution()[pri:0, instance:org.example.demo.Login@323b36e0]" started-at="2020-08-06T16:47:30Z" name="lastExecution" finished-at="2020-08-06T16:47:30Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExecution -->
+      </class> <!-- org.example.demo.Login -->
+      <class name="org.example.demo.Demo">
+        <test-method signature="demo(java.lang.String)[pri:0, instance:org.example.demo.Demo@5ffead27]" started-at="2020-08-06T16:47:30Z" name="demo" finished-at="2020-08-06T16:47:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mainpage.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- org.example.demo.Demo -->
+    </test> <!-- Landing Page -->
+    <test started-at="2020-08-06T16:47:30Z" name="Account Page" finished-at="2020-08-06T16:47:30Z" duration-ms="3">
+      <class name="org.example.demo.Account">
+        <test-method is-config="true" signature="executeBeforeSuite()[pri:0, instance:org.example.demo.Account@16d04d3d]" started-at="2020-08-06T16:47:30Z" name="executeBeforeSuite" finished-at="2020-08-06T16:47:30Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeSuite -->
+        <test-method signature="insertFile(java.lang.String, java.lang.String)[pri:0, instance:org.example.demo.Account@16d04d3d]" started-at="2020-08-06T16:47:30Z" name="insertFile" finished-at="2020-08-06T16:47:30Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[accounts.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertFile -->
+        <test-method is-config="true" signature="executeAfterSuite()[pri:0, instance:org.example.demo.Account@16d04d3d]" started-at="2020-08-06T16:47:30Z" name="executeAfterSuite" finished-at="2020-08-06T16:47:30Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterSuite -->
+      </class> <!-- org.example.demo.Account -->
+    </test> <!-- Account Page -->
+  </suite> <!-- Suite1 -->
+</testng-results>

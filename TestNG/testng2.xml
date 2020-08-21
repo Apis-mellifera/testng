@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Suite1">
+    <parameter name="URL" value="rahulacademy.com"/>
+    <test name = "Landing Page">
+       <packages>
+           <package name="org.example.demo"/>
+       </packages>
+    </test>
+</suite>

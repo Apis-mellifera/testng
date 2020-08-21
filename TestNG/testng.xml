@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Suite1">
+    <listeners>
+        <listener class-name="org.example.demo.Listener"/>
+    </listeners>
+    <test name = "Landing Page">
+        <parameter name="URL" value="mainpage.com"/>
+        <classes>
+            <class name = "org.example.demo.Demo">
+                <methods>
+                    <exclude name="bye"/>
+                </methods>
+            </class>
+            <class name="org.example.demo.Login"/>
+        </classes>
+    </test>
+
+    <test name="Account Page">
+        <parameter name="URL" value="accounts.com"/>
+        <parameter name="APIKey" value="12345"/>
+        <classes>
+            <class name="org.example.demo.Account">
+                <methods>
+                    <exclude name="account.*"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
